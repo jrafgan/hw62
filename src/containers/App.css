@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  min-height: 70px;
+}
+
+.body_div {
+  display: grid;
+  grid-template-columns: 30% auto;
+  min-height: 400px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns:  repeat(3, 30%);
+  min-height: 120px;
+}
+
+div {
+  border: 1px solid darkblue;
+}
+
+.active {
+  color: green;
+}
