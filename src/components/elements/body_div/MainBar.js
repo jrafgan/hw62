@@ -1,5 +1,5 @@
 import React from 'react';
-import './body_div.css'
+import './body_css/body_div.css'
 import img1 from "../../../images/str_drell1.jpeg";
 import img2 from "../../../images/str_drell2.jpeg";
 import img3 from "../../../images/str_drell3.jpeg";
