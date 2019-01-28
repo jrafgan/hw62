@@ -2,10 +2,16 @@
   text-align: center;
 }
 
+.Body {
+  display: grid;
+  grid-row-gap: 20px;
+  background: url("../images/tree_texture.jpeg");
+}
+
 .header {
   display: grid;
   grid-template-columns: 150px auto;
-  min-height: 70px;
+  min-height: fit-content;
 }
 
 .body_div {
@@ -16,14 +22,27 @@
 
 .footer {
   display: grid;
-  grid-template-columns:  repeat(3, 30%);
-  min-height: 120px;
-}
-
-div {
-  border: 1px solid darkblue;
+  grid-template-columns:  repeat(3, 32%);
+  min-height: fit-content;
 }
 
 .active {
-  color: green;
+  color: forestgreen;
+}
+
+.Logo,
+.NavMenu,
+.LeftSideBar,
+.MainBar,
+.Advantage,
+.Delivery,
+.Catalog,
+.footer_left_col,
+.footer_middle_col,
+.footer_right_col {
+  border: 1px solid grey;
+  padding: 20px;
+  border-radius: 10px;
+  background: url("../images/stone.jpeg");
+  box-shadow: 5px 5px 3px 0px rgba(50, 50, 50, 0.75);
 }

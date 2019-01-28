@@ -2,7 +2,7 @@ import React from 'react';
 
 const LeftColumn = () => {
     return (
-        <div className="col1">
+        <div className="footer_left_col">
             <p>Наш адрес:</p>
             <p>Бишкек, ул. Дорожная, д. 54к4, стр. 19</p>
             <p>Время работы:</p>

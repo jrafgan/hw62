@@ -2,7 +2,7 @@ import React from 'react';
 
 const RightColumn = () => {
     return (
-        <div>
+        <div className='footer_right_col'>
            RightColumn
         </div>
     );

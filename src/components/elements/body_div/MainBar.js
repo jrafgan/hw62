@@ -34,7 +34,7 @@ import 'react-animated-slider/build/horizontal.css';
 const MainBar = () => {
 
     return (
-        <div>
+        <div className='MainBar'>
             <Slider>
                 <img alt='img' src={img1}/>
                 <img alt='img' src={img2}/>
